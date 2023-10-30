@@ -17,14 +17,14 @@ public class Insertion {
     }  
        
     public static void main(String a[]){    
-        int[] arr1 = new int[100000];
+        int[] arr1 = new int[1000000];
         Random random = new Random();
         for (int i = 0; i<arr1.length; i++){
-            arr1[i] = random.nextInt(100000);
+            arr1[i] = random.nextInt(1000000);
         }
 
         long startTime = System.currentTimeMillis();
-        insertionSort(arr1);//sorting array using insertion sort    
+        insertionSort(arr1);   
         long endTime = System.currentTimeMillis();
 
         for(int i:arr1){    

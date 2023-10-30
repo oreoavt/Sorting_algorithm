@@ -1,0 +1,37 @@
+10000    -   28
+100000   -   1682
+1000000  -   604778
+10000    -   67 
+10000    -   74
+100000   -   4818
+10000    -   63
+1000000  -   589704
+10000    -   66
+100000   -   4649
+1000000  -   449283
+1000000  -   448344
+10000    -   56
+100000   -   5521
+1000000  -   578482
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+necesito crear una grafica en latex con las siguientes especificaciones:
+Te voy a dar un conjunto de pares ordenados, estos los vas a acomodar de manera que parezca una grafica, la gráfica va a tener eje x y y
+en el eje x hay 15 muestras y constan de 3 numeros: 10000,100000,1000000, pero estos los vas a representar con una retra, a para el primero, b para el segundo y c para el tercero. 
+para el eje y, vas a apuntar su numero de y a la misma altura que el número, no es necesario que esté a escala, ya que sino se amontonarían los números, estos son los pares ordenados
+(10000, 28)(10000, 56)(10000, 63)(10000, 66)(10000, 67)(10000, 74)(100000, 1682)(100000, 4649)(100000, 4818)(100000, 5521)(1000000, 448344)(1000000, 449283)(1000000, 578482)(1000000, 589704)(1000000, 604778)
+aquí hay varias correciones, primero recuerda que son 15 muestras, por lo que deben estar en el eje x, si hay 6 10000, entonces debem haber 6 a, así con el resto, además quiero que estén en fila los puntos, no uno sobre otro.
+Para el eje "y" necesito que me pongas los números a la altura de cada punto, recuerda que no tiene que ir a proporción, por ejemplo, para el número 28 en y, a este le va a salir una flecha hacia y que indica que se número corresponde a ese punto
+El muestro consiste en probar un algoritmo de ordenamiento, y tomar el tiempo que le tima ordenarlo, esto es lo que debo mostrar, debo hacer una gráfica,
