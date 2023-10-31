@@ -17,10 +17,10 @@ public class Insertion {
     }  
        
     public static void main(String a[]){    
-        int[] arr1 = new int[1000000];
+        int[] arr1 = new int[10];
         Random random = new Random();
         for (int i = 0; i<arr1.length; i++){
-            arr1[i] = random.nextInt(1000000);
+            arr1[i] = random.nextInt(10);
         }
 
         long startTime = System.currentTimeMillis();

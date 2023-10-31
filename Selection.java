@@ -17,11 +17,10 @@ public class Selection {
         }
     }
     public static void main(String[] a) {
-        int[] arr = new int[100];
+        int[] arr = new int[1000000];
         Random random = new Random();
-        System.out.println("Before");
         for (int i = 0; i<arr.length; i++){
-            arr[i] = random.nextInt(100);
+            arr[i] = random.nextInt(1000000);
         }
 
         long startTime = System.currentTimeMillis();
